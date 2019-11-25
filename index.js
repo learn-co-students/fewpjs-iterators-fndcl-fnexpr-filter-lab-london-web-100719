@@ -11,7 +11,7 @@ const fuzzyMatch = (source, sought) => {
 
 const matchName = (source, sought) => {
   return source.filter(possibleMatch =>
-    possibleMatch === sought)
+    possibleMatch.name === sought)
 }
 
 // findMatching()
